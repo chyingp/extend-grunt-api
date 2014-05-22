@@ -25,7 +25,7 @@ Copy directory `src` to `dest` recursively.
 
 usage:
 
-```
+```js
 grunt.file.copyDir('src', 'dest');
 ```
 
@@ -37,7 +37,7 @@ Inside a grunt task, you can get the name of the task currently run by using `th
 
 usage:
 
-```
+```js
 module.exports = function(grunt){
 
   require('extend-grunt-api')(grunt);
