@@ -1,0 +1,26 @@
+{
+  "name": "extend-grunt-api",
+  "version": "0.0.0",
+  "description": "extend grunt api, like grunt.file.copyDir...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chyingp/extend-grunt-api.git"
+  },
+  "keywords": [
+    "grunt",
+    "api"
+  ],
+  "author": "chyingp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyingp/extend-grunt-api/issues"
+  },
+  "homepage": "https://github.com/chyingp/extend-grunt-api",
+  "dependencies": {
+    "underscore": "1.6.0"
+  }
+}
