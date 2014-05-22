@@ -8,7 +8,7 @@ extend grunt api, like grunt.file、grunt.task, and more.
 In order to extend grunt API, first you need to install this plugin
 
 ```
-npm install extend-grunt-api
+npm install extend-grunt-api --save-dev
 ```
 
 then, in your Gruntfile.js, add a line of code. All done, enjoy yourself. Currently, there are only a few APIs supplied, if you have more need or ideas, please let me know.
