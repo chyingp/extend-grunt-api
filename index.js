@@ -23,6 +23,12 @@ module.exports = function(grunt){
             var task = argv[2]; // maybe like "grunt", then argv[2] is undefined
 
             return task ? task.split(':')[0] : 'default';
+        },
+        getCurTarget: function(){
+            var argv = process.argv;
+            var task = argv[2]; // maybe like "grunt", then argv[2] is undefined
+
+            var ret = task && task.length ? task.split(':')[1] : '';
         }
     });
 };

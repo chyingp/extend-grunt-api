@@ -1,6 +1,6 @@
 {
   "name": "extend-grunt-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "extend grunt api, like grunt.file.copyDir...",
   "main": "index.js",
   "scripts": {
